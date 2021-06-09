@@ -1,0 +1,8 @@
+requests==2.25.1
+pandas==1.2.4
+numpy==1.20.1
+matplotlib==3.4.1
+cycler==0.10.0
+youtube-dl==2021.4.7
+youtube-search==2.1.0
+

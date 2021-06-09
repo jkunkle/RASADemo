@@ -1,0 +1,135 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - good afternoon
+    - hey there
+    - let's go
+    - welcome to
+    - I want to welcome you
+    - hey what's up
+    - hey everybody
+    - my name is
+    - hey there
+    - what's going on guys
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - good by
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - cheerio
+    - see you in the next video
+    - see you next time
+    - cheers
+    - thanks for watching
+- intent: introduce
+  examples: |
+    - my name is
+    - I am 
+    - I'm
+    - we are 
+- intent: tease
+  examples: |
+    - Today you're going to learn
+    - in this video
+    - in this video we are going to unlock the secrets of
+    - in this video we are gonna talk about
+    - in this video I'm going to demonstrate
+    - in this episode of
+    - how to 
+    - what is
+    - we will learn
+    - in todays video
+    - i will show you
+    - teach you about
+    - let's leaarn how to
+    - i will explain
+    - in today's tutorial
+    - my goal is to
+    - we'll go through the process of
+    - I will walk you through
+    - today what were are going to do
+    - today we are going to
+    - today we're going to
+    - Today I'm going to
+    - going to share
+    - we're gonna talk about
+- intent: sponsor
+  examples: |
+    - today's sponsor is
+    - this video is supported by
+    - our video is sponsored by
+    - the sponsor for this video is
+    - supporting us today
+- intent: subscribe
+  examples: |
+    - please like or subscribe
+    - hit the like button
+    - smash that like button
+    - hit subscribe
+    - smash subscribe 
+    - subscribe to my channel
+    - like this video
+    - watch this video
+    - check out this video
+    - subscribe to our channel
+    - hit the bell
+    - go to our website
+    - click here
+    - check out
+    - get started now with
+    - try us out
+    - go to my website at
+    - check out my channel
+    - consider subscribing
+    - turn on notifications
+    - support me on patreon
+    - join my club
+    - follow me on instagram
+
+- intent: authority
+  examples: |
+    - I'm licensed 
+    - I have experience in
+    - I am trained in
+    - I am a professional
+    - I studied for ten years
+    - in my experience as
+    - market leader
+    - we offer
+    - our company
+    - my company
+    - I'm the founder of
+    - I've taught
+    - I'm the CEO of
+
+- intent: summarize
+  examples: |
+    - in summary
+    - in conclusion
+    - summarized
+    - a nutshell
+    - overview
+    - recap
+    - summary
+    - summarizing
+    - executive summary
+    - conclusion
+    - sum up
+    - main learnings
+    - key facts
+    - key learnings
+    - most important facts
